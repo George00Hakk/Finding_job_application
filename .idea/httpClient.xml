@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpClientEndpointsTabState">
+    <option name="requestToText" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;867a06a4a9e3d2a3e1ebd32a25fc2cb03beacc14&quot; value=&quot;###&amp;#10;GET http://localhost:8080/vacancies/finder?&amp;#10;    jobTitle={{$random.alphanumeric(8)}}&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
+</project>

@@ -13,11 +13,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/vacancies")
 public class VacancyController {
-    private final VacancyFinder vacancyService; //этому бину мой рест контроллер будет делигировать свои запросы  - --- vacancyService должен возвращать List<Vacancy>
-    /*@Autowired*/
+    private final VacancyFinder vacancyService;
+
     public VacancyController(/*VacancyFinder vacancyService*/) {
-        //TODO пока подключен тестово через new
-        //TODO нужно чтобы vacancyService был бином и тут его заинжектить через @Autowired
         this.vacancyService = new VacancyService();
     }
 
@@ -33,11 +31,9 @@ public class VacancyController {
 
 
 
-    //TODO POST метод для внесения новой вакансии в базу  ---- если буде время поизучать
+
     @PostMapping(value = "/add")
     public ResponseEntity<?> create(@RequestBody Vacancy vacancy) {
-        //TODO что то делает
-        //......
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 }
