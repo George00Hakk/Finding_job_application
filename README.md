@@ -1,0 +1,1 @@
+Application with the ability to send requests using HTTP, as well as bot telegrams. The application is designed to provide a list of available vacancies in response to a job request. Telegram bot support is also included for the implementation of the task described above. In the revision.
